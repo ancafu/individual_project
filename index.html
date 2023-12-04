@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rajdhani">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <a href="#main" id = "skip">Skip to Main Content</a>
+
+    <nav class="navbar">
+        <a class="sitename">JYF's Escape</a>
+        <ul class="nav">
+            <li class="navitem"><a href="index.html" id="currentpage">Home</a></li>
+            <li class="navitem"><a href="austria.html">Austria</a></li>
+            <li class="navitem"><a href="italy.html">Italy</a></li>
+            <li class="navitem"><a href="portugal.html">Portugal</a></li>
+        </ul>
+    </nav>
+
+    <h1>Summer of 2022</h1>
+
+    <main id = "main">
+        <div class="homeintro">
+            <p>
+                In May of 22, I suddenly had an urge to travel with a friend to Europe. I have been to Europe with my mother before the summer of my freshman year in high school. We went to Spain, Germany, England, and switzerland. However, due to COVID, I have not been anywhere other than China and America in the past few years. Since COVID have been getting better, I wanted to revisit Europe. With less than a week to prepare for our trip, I woke up every day with the mission to create the perfect itinerary.
+            </p>
+        </div>
+        <div class="citycards">
+            <div class="citycard">
+                <h2 class="citytitle">Italy</h2>
+                <img class="citycardpic" src="images/rome_cover_(italy).JPG" alt="View of the St. Peter's Basilica in Rome on a Cloudy Day">
+                <p class="citydescription">
+                    Old Yet New
+                </p>
+                <a href="italy.html" class="readmorebutton">Explore Italy</a>
+            </div>
+            <div class="citycard">
+                <h2 class="citytitle">Austria</h2>
+                <img class="citycardpic" src="images/vienna_tram_cover_(austria).jpg" alt="View of Trams in the Middle of the City of Vienna">
+                <p class="citydescription">
+                    Arts and Nature
+                </p>
+                <a href="austria.html" class="readmorebutton">Explore Austria</a>
+            </div>
+            <div class="citycard">
+                <h2 class="citytitle">Portugal</h2>
+                <img class="citycardpic" src="images/sintra_castle_cover_(portugal).JPG" alt="View of a Part of the Pena Palace">
+                <p class="citydescription">
+                    Broken Yet Whole
+                </p>
+                <a href="portugal.html" class="readmorebutton">Explore Portugal</a>
+            </div>
+        </div>
+        <footer>
+            <p>
+                JYF's Escape ©
+            </p>
+        </footer>
+    </main>
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js">
+    </script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".citycard"), {
+            max: 10,
+            speed: 400
+        });
+    </script>
+</body>
